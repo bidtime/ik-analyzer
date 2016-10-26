@@ -69,12 +69,16 @@ public final class IKAnalyzer extends Analyzer{
 	/**
 	 * 重载Analyzer接口，构造分词组件
 	 */
-//	@Override
+//	@Override 4.x
 //	protected TokenStreamComponents createComponents(String fieldName, final Reader in) {
 //		Tokenizer _IKTokenizer = new IKTokenizer(in , this.useSmart());
 //		return new TokenStreamComponents(_IKTokenizer);
 //	}
 
+	/* 5.x以上
+	 * (non-Javadoc)
+	 * @see org.apache.lucene.analysis.Analyzer#createComponents(java.lang.String)
+	 */
 	@Override
 	protected TokenStreamComponents createComponents(String fieldName) {
 		Reader in = null;

@@ -7,7 +7,7 @@ IKAnalyzer是一个开源的，基于java语言开发的轻量级的中文分词
 
 -----------------------------------------------------------------
 
-2. Maven第一版本工程由王坤山创建（wks1986@gmail.com）。创建的目的是为了方便用于其他Maven工程。你可以在 https://github.com/wks/ik-analyzer 网站找到本工程。
+2. Maven第一版本工程由王坤山创建（wks1986@gmail.com）。创建的目的是为了方便用于其他Maven工程。详情你可以移步 https://github.com/wks/ik-analyzer 网站去了解。
 
 Maven用法：
 
@@ -25,6 +25,7 @@ mvn install -Dmaven.test.skip=true
 
 ------------------------------------------------------------------
 
-3. Maven第二版本由bidtime创建，以支持lucene5.x以上，https://github.com/bidtime/ik-analyzer
+3. Maven第二版本工程由bidtime创建，以支持lucene5.x以上，https://github.com/bidtime/ik-analyzer
+对于需要支持lucene6.x以上，还有一点工作量要做，需要调整IKQueryExpressionParser类，如果你不需要用此类，本工程实际上可以支持lucene6.x
 
 4. 配套使用的 IKAnalyzer - 4Pinyin 也在本站中，https://github.com/bidtime/ik-analyzer-4Pinyin
