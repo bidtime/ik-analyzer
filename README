@@ -1,4 +1,4 @@
-# ik-analyzer
+﻿# ik-analyzer
 ﻿IKAnalyzer maven化，并且支持lucene5.0。
 
 IKAnalyzer是一个开源的，基于java语言开发的轻量级的中文分词工具包。
