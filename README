@@ -28,4 +28,4 @@ mvn install -Dmaven.test.skip=true
 3. Maven第二版本工程由bidtime创建，以支持lucene5.x以上，https://github.com/bidtime/ik-analyzer
 对于需要全面支持lucene6.x以上，即由于lucene BooleanQuery带来构造函数的变化，需要调整IKQueryExpressionParser类，如果你不需要用此类，本工程实际上可以支持lucene6.x
 
-4. 配套使用的 IKAnalyzer - 4Pinyin 也在本站中，https://github.com/bidtime/ik-analyzer-4Pinyin
+4. 另外，IKAnalyzer - 4Pinyin （支持汉语拼音搜索的工程） 也在本站中，https://github.com/bidtime/ik-analyzer-4Pinyin，欢迎有兴趣的同学使用。
